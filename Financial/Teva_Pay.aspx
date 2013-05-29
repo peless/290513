@@ -7,7 +7,11 @@
 <center><h1>דוח תשלומים טבע</h1></center>
 <asp:Label ID="LBLsum" runat="server" style="float:right"></asp:Label>
 <br /> <br />
-<asp:GridView ID="GV_PayTBL" runat="server" class="CSSTableGenerator"></asp:GridView>
+<asp:GridView ID="GV_PayTBL" runat="server" class="CSSTableGenerator" style="width: 60%; margin-left: 25%">
+
+
+
+</asp:GridView>
 <br /> <br />
 <asp:Label ID="LBLdis" runat="server" style="float:right"></asp:Label>
 

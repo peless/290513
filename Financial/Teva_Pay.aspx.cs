@@ -23,7 +23,7 @@ public partial class Teva_Pay : System.Web.UI.Page
 
 
             int Sum = dbs.GetTotSum(id);
-            list = dbs.GetITEMINV(ID);
+            list = dbs.GetITEMINV(id);
 
             LBLsum.Text = Sum.ToString() + "  :סכום";
 
@@ -48,14 +48,7 @@ public partial class Teva_Pay : System.Web.UI.Page
             GV_PayTBL.DataSource = dt;
             GV_PayTBL.DataBind();
 
-            //DataGrid DG = new DataGrid();
-            //DG.DataSource = dt;
-            //DG.DataBind();
 
-            //Mailmsg msg = new Mailmsg();
-            //string Body = msg.RenderControl(DG);
-
-            //msg.Send(Body, "חשבונית");
 
 
             LBLdis.Text = (Sum + Disc).ToString() + " :סכום לאחר זיכוי";
