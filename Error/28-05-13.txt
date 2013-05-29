@@ -1,0 +1,75 @@
+
+Log Entry : 
+05/28/2013 09:11:59
+Error in: http://localhost:53389/28052013/ManagementSystem/message.aspx. Error Message:Thread was being aborted.
+__________________________
+
+Log Entry : 
+05/28/2013 09:12:16
+Error in: http://localhost:53389/28052013/ManagementSystem/message.aspx. Error Message:Thread was being aborted.
+__________________________
+
+Log Entry : 
+05/28/2013 10:20:17
+Error in: http://localhost:53389/28052013/ManagementSystem/forgotPASS.aspx. Error Message:Failure sending mail.
+__________________________
+
+Log Entry : 
+05/28/2013 10:21:24
+Error in: http://localhost:53389/28052013/ManagementSystem/forgotPASS.aspx. Error Message:Failure sending mail.
+__________________________
+
+Log Entry : 
+05/28/2013 10:23:54
+Error in: http://localhost:53389/28052013/ManagementSystem/forgotPASS.aspx. Error Message:Failure sending mail.
+__________________________
+
+Log Entry : 
+05/28/2013 10:25:13
+Error in: http://localhost:53389/28052013/ManagementSystem/forgotPASS.aspx. Error Message:Failure sending mail.
+__________________________
+
+Log Entry : 
+05/28/2013 10:27:20
+Error in: http://localhost:53389/28052013/ManagementSystem/forgotPASS.aspx. Error Message:Failure sending mail.
+__________________________
+
+Log Entry : 
+05/28/2013 10:28:58
+Error in: http://localhost:53389/28052013/ManagementSystem/forgotPASS.aspx. Error Message:Failure sending mail.
+__________________________
+
+Log Entry : 
+05/28/2013 10:30:08
+Error in: http://localhost:53389/28052013/ManagementSystem/forgotPASS.aspx. Error Message:Failure sending mail.
+__________________________
+
+Log Entry : 
+05/28/2013 10:32:16
+Error in: http://localhost:53389/28052013/ManagementSystem/forgotPASS.aspx. Error Message:Failure sending mail.
+__________________________
+
+Log Entry : 
+05/28/2013 12:31:29
+Error in: http://localhost:51680/28052013/ManagementSystem/forgotPASS.aspx. Error Message:Failure sending mail.
+__________________________
+
+Log Entry : 
+05/28/2013 13:34:24
+Error in: http://localhost:53389/28052013/Patient/UpDatePatient.aspx?P_id=156456. Error Message:Thread was being aborted.
+__________________________
+
+Log Entry : 
+05/28/2013 13:35:09
+Error in: http://localhost:53389/28052013/Item/itemOrder.aspx. Error Message:String was not recognized as a valid DateTime.
+__________________________
+
+Log Entry : 
+05/28/2013 13:35:10
+Error in: http://localhost:53389/28052013/Item/itemOrder.aspx. Error Message:String was not recognized as a valid DateTime.
+__________________________
+
+Log Entry : 
+05/28/2013 13:35:22
+Error in: http://localhost:53389/28052013/Item/itemOrder.aspx. Error Message:String was not recognized as a valid DateTime.
+__________________________

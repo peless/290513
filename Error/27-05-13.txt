@@ -1,0 +1,152 @@
+
+Log Entry : 
+05/27/2013 09:59:05
+Error in: http://localhost:51419/masterpage/OrderConfirmation.aspx. Error Message:Incorrect syntax near '='.
+__________________________
+
+Log Entry : 
+05/27/2013 20:15:20
+Error in: http://localhost:51145/28052013/Item/NewIteam.aspx. Error Message:Incorrect syntax near 'תמיסה'.
+__________________________
+
+Log Entry : 
+05/27/2013 20:23:43
+Error in: http://localhost:51145/28052013/Item/NewIteam.aspx. Error Message:Incorrect syntax near 'שקית'.
+__________________________
+
+Log Entry : 
+05/27/2013 20:24:59
+Error in: http://localhost:51145/28052013/Item/NewIteam.aspx. Error Message:Invalid column name 'עאאעא'.
+__________________________
+
+Log Entry : 
+05/27/2013 20:25:46
+Error in: http://localhost:51145/28052013/Item/NewIteam.aspx. Error Message:Invalid column name 'עעע'.
+Invalid column name 'עעע'.
+Invalid column name 'עעע'.
+__________________________
+
+Log Entry : 
+05/27/2013 20:34:29
+Error in: http://localhost:51145/28052013/Item/itemOrder.aspx. Error Message:Incorrect syntax near '='.
+__________________________
+
+Log Entry : 
+05/27/2013 21:16:39
+Error in: http://localhost:51145/28052013/Item/itemOrder.aspx. Error Message:Incorrect syntax near '='.
+__________________________
+
+Log Entry : 
+05/27/2013 21:56:51
+Error in: http://localhost:53389/28052013/Patient/NewPatient.aspx. Error Message:Thread was being aborted.
+__________________________
+
+Log Entry : 
+05/27/2013 22:02:51
+Error in: http://localhost:53389/28052013/Patient/UpDatePatient.aspx. Error Message:Incorrect syntax near '='.
+__________________________
+
+Log Entry : 
+05/27/2013 22:05:30
+Error in: http://localhost:53389/28052013/Patient/UpDatePatient.aspx. Error Message:Incorrect syntax near '='.
+__________________________
+
+Log Entry : 
+05/27/2013 22:53:47
+Error in: http://localhost:53389/28052013/Order/OrderConfirmation.aspx?Po_id=100. Error Message:String was not recognized as a valid DateTime.
+__________________________
+
+Log Entry : 
+05/27/2013 22:53:53
+Error in: http://localhost:53389/28052013/Order/OrderConfirmation.aspx?Po_id=100. Error Message:String was not recognized as a valid DateTime.
+__________________________
+
+Log Entry : 
+05/27/2013 23:02:36
+Error in: http://localhost:53389/28052013/Order/OrderConfirmation.aspx?Po_id=95. Error Message:String was not recognized as a valid DateTime.
+__________________________
+
+Log Entry : 
+05/27/2013 23:02:39
+Error in: http://localhost:53389/28052013/Order/OrderConfirmation.aspx?Po_id=95. Error Message:String was not recognized as a valid DateTime.
+__________________________
+
+Log Entry : 
+05/27/2013 23:14:02
+Error in: http://localhost:53389/28052013/ManagementSystem/message.aspx. Error Message:Thread was being aborted.
+__________________________
+
+Log Entry : 
+05/27/2013 23:14:26
+Error in: http://localhost:53389/28052013/ManagementSystem/message.aspx. Error Message:Thread was being aborted.
+__________________________
+
+Log Entry : 
+05/27/2013 23:14:53
+Error in: http://localhost:53389/28052013/ManagementSystem/message.aspx. Error Message:Violation of PRIMARY KEY constraint 'PK__Message__78A1A19C47A6A41B'. Cannot insert duplicate key in object 'dbo.Message'.
+The statement has been terminated.
+__________________________
+
+Log Entry : 
+05/27/2013 23:14:56
+Error in: http://localhost:53389/28052013/ManagementSystem/message.aspx. Error Message:Violation of PRIMARY KEY constraint 'PK__Message__78A1A19C47A6A41B'. Cannot insert duplicate key in object 'dbo.Message'.
+The statement has been terminated.
+__________________________
+
+Log Entry : 
+05/27/2013 23:15:04
+Error in: http://localhost:53389/28052013/ManagementSystem/message.aspx. Error Message:Violation of PRIMARY KEY constraint 'PK__Message__78A1A19C47A6A41B'. Cannot insert duplicate key in object 'dbo.Message'.
+The statement has been terminated.
+__________________________
+
+Log Entry : 
+05/27/2013 23:15:14
+Error in: http://localhost:53389/28052013/ManagementSystem/message.aspx. Error Message:Violation of PRIMARY KEY constraint 'PK__Message__78A1A19C47A6A41B'. Cannot insert duplicate key in object 'dbo.Message'.
+The statement has been terminated.
+__________________________
+
+Log Entry : 
+05/27/2013 23:15:20
+Error in: http://localhost:53389/28052013/ManagementSystem/message.aspx. Error Message:Thread was being aborted.
+__________________________
+
+Log Entry : 
+05/27/2013 23:15:27
+Error in: http://localhost:53389/28052013/ManagementSystem/message.aspx. Error Message:Thread was being aborted.
+__________________________
+
+Log Entry : 
+05/27/2013 23:15:31
+Error in: http://localhost:53389/28052013/ManagementSystem/message.aspx. Error Message:Violation of PRIMARY KEY constraint 'PK__Message__78A1A19C47A6A41B'. Cannot insert duplicate key in object 'dbo.Message'.
+The statement has been terminated.
+__________________________
+
+Log Entry : 
+05/27/2013 23:16:22
+Error in: http://localhost:53389/28052013/ManagementSystem/message.aspx. Error Message:Thread was being aborted.
+__________________________
+
+Log Entry : 
+05/27/2013 23:16:28
+Error in: http://localhost:53389/28052013/ManagementSystem/message.aspx. Error Message:Thread was being aborted.
+__________________________
+
+Log Entry : 
+05/27/2013 23:16:37
+Error in: http://localhost:53389/28052013/ManagementSystem/message.aspx. Error Message:Thread was being aborted.
+__________________________
+
+Log Entry : 
+05/27/2013 23:16:43
+Error in: http://localhost:53389/28052013/ManagementSystem/message.aspx. Error Message:Thread was being aborted.
+__________________________
+
+Log Entry : 
+05/27/2013 23:16:49
+Error in: http://localhost:53389/28052013/ManagementSystem/message.aspx. Error Message:Thread was being aborted.
+__________________________
+
+Log Entry : 
+05/27/2013 23:20:12
+Error in: http://localhost:53389/28052013/ManagementSystem/message.aspx. Error Message:Thread was being aborted.
+__________________________

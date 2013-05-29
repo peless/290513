@@ -1,0 +1,106 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="neframor.master.cs" Inherits="MasterPage" %>
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link href="StyleSheet.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div id="header">
+        <div id="logo" ><a href="../ManagementSystem/homepage.aspx"><img src="../images/logo%20copy.jpg" /></a></div>
+         
+<div id='cssmenu'>
+<ul>
+   <li class='active '><span style="
+    color: #000;  display: block;  font-weight: normal;  line-height: 50px;  margin: 0px;  padding: 0px 25px;  text-align: center;  text-decoration: none;
+">מטופלים</span>
+     <ul>
+         <li><a href='../Patient/NewPatient.aspx'><span>יצירת מטופל חדש</span></a></li>
+         <li><a href='../Patient/PatientList.aspx'><span>צפייה ועדכון מטופלים</span></a></li>
+      </ul>
+   </li>
+   <li class='active '><span style="
+    color: #000;  display: block;  font-weight: normal;  line-height: 50px;  margin: 0px;  padding: 0px 25px;  text-align: center;  text-decoration: none;
+">רכש</span></a>
+      <ul>
+         <li><a href='../Order/formOrder.aspx'><span>יצירת הזמנה</span></a></li>
+         <li><a href='../Order/OrderList.aspx'><span>אישור הזמנה</span></a></li>
+         <li><a href='../Item/Newiteam.aspx'><span>הוספת פריט</span></a></li>
+      </ul>
+   </li>
+   <li class='active '><span style="
+    color: #000;  display: block;  font-weight: normal;  line-height: 50px;  margin: 0px;  padding: 0px 25px;  text-align: center;  text-decoration: none;
+">כספים</span>
+       <ul>
+           <li><a href='../Financial/Getexcel2.aspx'><span>צפייה ואישור חשבונית</span></a></li>
+      </ul>
+   </li>
+   <li class='active'><span style="
+    color: #000;  display: block;  font-weight: normal;  line-height: 50px;  margin: 0px;  padding: 0px 25px;  text-align: center;  text-decoration: none;
+">דוחות</span>
+    <ul>
+        <li><a href="../Reports/BranchConsumtion.aspx"><span>דוח צריכת מכונים</span></a></li>
+        <li><a href='#'><span>דוח מלאי טבע מדיקל</span></a></li>
+   
+    </ul>
+   
+   </li>
+
+   <li class='active '><span style="
+    color: #000;  display: block;  font-weight: normal;  line-height: 50px;  margin: 0px;  padding: 0px 25px;  text-align: center;  text-decoration: none;
+">ניהול מערכת</span>
+      <ul>
+         <li><a href='../ManagementSystem/NewWorker.aspx'><span>הוספת עובד חדש</span></a></li>
+         <li><a href='../ManagementSystem/newPASS.aspx'><span>שינוי סיסמא</span></a></li>
+         <li><a href='../ManagementSystem/message.aspx'><span>הודעות </span></a></li>
+      </ul>
+      </li>
+
+</ul>
+</div>
+<div id="logout" ><a href="../Default.aspx"><img src="../images/logout2.jpg"  style="margin-right: 60px; margin-top: 10px;"/></a></div>
+
+	</div>
+    <div id="line" ></div>
+	<div id="contents">
+		<div id="blog" class="area">
+			<div class="main">
+                <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">  
+                </asp:ContentPlaceHolder>
+			</div>
+			<div class="sidebar">
+
+            <marquee onmouseover="this.setAttribute('scrollamount', 0, 0);" onmouseout="this.setAttribute('scrollamount', 2, 0);"
+                            height="168px" behavior="scroll" direction="up" scrollamount="2" 
+                    style="width: 201px">
+                            
+                            <asp:ListView ID="ListViewNotes" runat="server" DataSourceID="SqlDataSource1">
+                     <LayoutTemplate>
+                            <ol id="insidemarqueeright" style="list-style: none; text-align:right; padding-right:15px" >
+                                <asp:PlaceHolder runat="server" ID="itemPlaceholder" >
+                                </asp:PlaceHolder>
+                            </ol>
+                        </LayoutTemplate>
+                           <ItemTemplate>
+                                <li style="font-size:medium; color:#9b8d84"><%# Eval("Text_Message")%></li>
+                                <br /><br />
+                           </ItemTemplate>
+                    </asp:ListView>
+                        <asp:SqlDataSource ID="SqlDataSource1" runat="server" 
+                            ConnectionString="<%$ ConnectionStrings:igroup31_test1ConnectionString %>" 
+                            SelectCommand="SELECT [Text_Message] FROM [Message]"></asp:SqlDataSource></marquee>
+    
+			</div>
+		</div>
+	</div>
+
+    </form>
+</body>
+</html>
