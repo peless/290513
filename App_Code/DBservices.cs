@@ -646,7 +646,8 @@ public class DBservices
             SqlCommand cmd1 = new SqlCommand();
             Object returnValue;
 
-            cmd1.CommandText = "select INV_ID from Invoice  where INV_Date='" + date + "'";
+            //cmd1.CommandText = "select INV_ID from Invoice  where INV_Date='" + date + "'";
+            cmd1.CommandText = " SELECT MAX(INV_ID) FROM Invoice";
             cmd1.CommandType = CommandType.Text;
             cmd1.Connection = con;
 
@@ -756,7 +757,7 @@ public class DBservices
             con = connect("igroup31_test1ConnectionString"); // create a connection to the database using the connection String defined in the web config file
 
 
-            String selectSTR = "select II.SN,II.Price,II.Quant,IT.price from Item_Invoice II,Item IT where II.INV_ID='2' AND II.SN=IT.SN AND II.Price!=IT.price group by II.SN,II.Price,II.Quant,IT.Price";
+            String selectSTR = "select II.SN,II.Price,II.Quant,IT.price from Item_Invoice II,Item IT where II.INV_ID='"+ID+"' AND II.SN=IT.SN AND II.Price!=IT.price group by II.SN,II.Price,II.Quant,IT.Price";
             SqlCommand cmd = new SqlCommand(selectSTR, con);
             SqlDataReader dr = cmd.ExecuteReader(CommandBehavior.CloseConnection);
 
@@ -1616,4 +1617,46 @@ public class DBservices
         }
 
     }
+
+    public static DataTable GetAllInvoices()
+    {
+        SqlConnection con = connect("igroup31_test1ConnectionString"); // create a connection to the database using the connection String defined in the web config file
+
+        try
+        {
+
+
+            DataTable dt_invoice = new DataTable();
+            String selectSTR = " select * from Invoice";
+
+            SqlCommand cmd = new SqlCommand(selectSTR, con);
+
+            SqlDataAdapter daI = new SqlDataAdapter();
+            DataSet dsI = new DataSet();
+
+            daI.SelectCommand = cmd;
+
+            daI.Fill(dsI, "Invoice");
+            dt_invoice = dsI.Tables["Invoice"];
+
+            
+
+        
+
+            con.Close();
+            return dt_invoice;
+        }
+        catch (Exception ex)
+        {
+            throw ex;
+        }
+        finally
+        {
+            con.Close();
+        }
+    }
+        
+
+
+
 }
