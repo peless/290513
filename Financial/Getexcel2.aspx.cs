@@ -17,7 +17,31 @@ public partial class Getexcel2 : System.Web.UI.Page
     
     protected void Page_Load(object sender, EventArgs e)
     {
+        //DataTable dt = new DataTable();
+        //dt.Columns.Add("ID");
+        //dt.Columns.Add("Date");
+        //dt.Columns.Add("Status");
 
+        //dt= DBservices.GetAllInvoices();
+
+        //foreach (DataRow dr in dt.Rows)
+        //{
+        //    HyperLink link=new HyperLink();
+        //    link.NavigateUrl="ViewInv.aspx?INV="+dr[0].ToString();
+        //    link.Text=dr[0].ToString();
+        //    dr[0] = link.Text;
+            
+        //}
+        
+        
+        //GridView gv = new GridView();
+        //gv.DataSource = dt;
+        
+        //gv.DataBind();
+        
+
+        //PH_All_invoices.Controls.Add(gv);
+        
     }
     protected void UploadButton_Click(object sender, EventArgs e)
     {
@@ -99,13 +123,21 @@ public partial class Getexcel2 : System.Web.UI.Page
             //Branch_NUM	INV_NUM	DEL_ID	SN	Quant	Price	Sum	date
 
 
-            dt.Columns.Add("DEL_ID", typeof(String));
-            dt.Columns.Add("SN", typeof(String));
-            dt.Columns.Add("Quant", typeof(int));
-            dt.Columns.Add("Price", typeof(float));
-            dt.Columns.Add("Sum", typeof(float));
-            dt.Columns.Add("Date", typeof(DateTime));
-            dt.Columns.Add("Branch_NUM", typeof(String));
+            //dt.Columns.Add("DEL_ID", typeof(String));
+            //dt.Columns.Add("SN", typeof(String));
+            //dt.Columns.Add("Quant", typeof(int));
+            //dt.Columns.Add("Price", typeof(float));
+            //dt.Columns.Add("Sum", typeof(float));
+            //dt.Columns.Add("Date", typeof(DateTime));
+            //dt.Columns.Add("Branch_NUM", typeof(String));
+
+            dt.Columns.Add("מספר משלוח", typeof(String));
+            dt.Columns.Add("מקט", typeof(String));
+            dt.Columns.Add("כמות", typeof(int));
+            dt.Columns.Add("מחיר", typeof(float));
+            dt.Columns.Add("סך הכל", typeof(float));
+            dt.Columns.Add("תאריך", typeof(DateTime));
+            dt.Columns.Add("מספר מכון", typeof(String));
 
             //DEL_ID	SN	Quant	Price	Sum	date	Branch_NUM
 
