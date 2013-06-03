@@ -9,7 +9,7 @@
     </style>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
-
+<br />
 <center><h1>יצירת עובד חדש</h1></center>
 <br /><br />
 <table dir="rtl" id="savePASS" style="width:100% ; margin-left:-10px">

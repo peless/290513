@@ -646,7 +646,6 @@ public class DBservices
             SqlCommand cmd1 = new SqlCommand();
             Object returnValue;
 
-            //cmd1.CommandText = "select INV_ID from Invoice  where INV_Date='" + date + "'";
             cmd1.CommandText = " SELECT MAX(INV_ID) FROM Invoice";
             cmd1.CommandType = CommandType.Text;
             cmd1.Connection = con;
@@ -757,7 +756,8 @@ public class DBservices
             con = connect("igroup31_test1ConnectionString"); // create a connection to the database using the connection String defined in the web config file
 
 
-            String selectSTR = "select II.SN,II.Price,II.Quant,IT.price from Item_Invoice II,Item IT where II.INV_ID='"+ID+"' AND II.SN=IT.SN AND II.Price!=IT.price group by II.SN,II.Price,II.Quant,IT.Price";
+            String selectSTR = "select II.SN,II.Price,II.Quant,IT.price from Item_Invoice II,Item IT where II.INV_ID='" + ID + "' AND II.SN=IT.SN AND II.Price!=IT.price group by II.SN,II.Price,II.Quant,IT.Price";
+
             SqlCommand cmd = new SqlCommand(selectSTR, con);
             SqlDataReader dr = cmd.ExecuteReader(CommandBehavior.CloseConnection);
 
@@ -1618,6 +1618,183 @@ public class DBservices
 
     }
 
+    public List<Item> ReadItemByNameOrSN(string name, string sn)
+    {
+        SqlConnection con;
+        try
+        {
+            con = connect("igroup31_test1ConnectionString"); // create a connection to the database using the connection String defined in the web config file
+        }
+
+        catch (Exception ex)
+        {
+            // write to log
+            throw (ex);
+        }
+
+        try
+        {
+            String selectSTR;
+            if (sn==string.Empty)
+                 selectSTR = "select * from Item where Name LIKE '%" + name + "%' ";
+            else
+                if (name==string.Empty)
+                     selectSTR = "select * from Item where SN LIKE '%" + sn + "%' ";
+                else
+                    selectSTR = "  select * from Item where Name LIKE '%"+name+"%' and SN like '%"+sn+"%'";
+            SqlCommand cmd = new SqlCommand(selectSTR, con);
+
+            da.SelectCommand = cmd;
+
+            da.Fill(ds, "Item");
+            dt_item = ds.Tables["Item"];
+
+            List<Item> itemList = new List<Item>();
+
+            foreach (DataRow dr in dt_item.Rows)
+            {
+
+                string Name = dr["Name"].ToString();
+                string SN = dr["SN"].ToString();
+                string Category = dr["Category"].ToString();
+                int Numinbox = Convert.ToInt32(dr["Numinbox"]);
+
+                itemList.Add(new Item(Name, SN, Numinbox, Category));
+
+            }
+
+            con.Close();
+            return itemList;
+        }
+        catch (Exception ex)
+        {
+            throw ex;
+        }
+
+    }
+
+    public List<string> getItemBYsn(string name)
+    {
+
+        SqlConnection con;
+        try
+        {
+            con = connect("igroup31_test1ConnectionString"); // create a connection to the database using the connection String defined in the web config file
+        }
+
+        catch (Exception ex)
+        {
+            // write to log
+            throw (ex);
+        }
+
+        try
+        {
+
+            String selectSTR = "SELECT * FROM Item where Name='"+name+"'";
+
+            SqlCommand cmd = new SqlCommand(selectSTR, con);
+
+            da.SelectCommand = cmd;
+
+            da.Fill(ds, "Item");
+            dt_item = ds.Tables["Item"];
+
+            List<string> itemList = new List<string>();
+
+            foreach (DataRow dr in dt_item.Rows)
+            {
+
+                itemList.Add(dr["Name"].ToString());
+                itemList.Add( dr["SN"].ToString());
+                itemList.Add(dr["Category"].ToString());
+                itemList.Add(dr["Numinbox"].ToString());
+                itemList.Add( dr["price"].ToString());
+                itemList.Add(dr["VendorSN"].ToString());
+
+  
+                //itemList.Add(new Item(Name, SN, Numinbox, Category, price, vandor));
+
+            }
+
+            con.Close();
+            return itemList;
+        }
+        catch (Exception ex)
+        {
+            throw ex;
+        }
+    }
+
+
+    public  void DeletItem(string sn)
+    {
+        try
+        {
+            SqlConnection con;
+            con = connect("igroup31_test1ConnectionString");
+
+
+            string sql = "DELETE FROM Item WHERE SN='" + sn + "';";
+            using (con)
+            {
+                SqlCommand cmd = con.CreateCommand();
+                cmd.CommandText = sql;
+                cmd.ExecuteNonQuery();
+                con.Close();
+            }
+
+        }
+        catch (Exception ex)
+        {
+            throw ex;
+        }
+    }
+
+    public void UpDateItem(string sn, string numberinbox, string price)
+    {
+        try
+        {
+            SqlConnection con;
+            con = connect("igroup31_test1ConnectionString");
+
+
+            string sql = "  update Item SET Numinbox=" + numberinbox + ", Price = " + price + " where SN='" + sn + "'";
+            using (con)
+            {
+                SqlCommand cmd = con.CreateCommand();
+                cmd.CommandText = sql;
+                cmd.ExecuteNonQuery();
+                con.Close();
+            }
+
+        }
+        catch (Exception ex)
+        {
+            throw ex;
+        }
+    }
+
+    public static void UpDateStock (string sn, string branch,int quntity)
+    {
+        try
+        {
+            SqlConnection con;
+            con = connect("igroup31_test1ConnectionString");
+
+            string insertSTR = "UPDATE Stock SET quantity='"+quntity+"' WHERE SN_Item='" + sn + "' AND branch_number='" + branch + "'";
+
+            SqlCommand cmd = new SqlCommand(insertSTR, con);
+
+
+            int numEffected = cmd.ExecuteNonQuery(); // execute the command
+        }
+        catch (Exception ex)
+        {
+            throw ex;
+        }
+    }
+
     public static DataTable GetAllInvoices()
     {
         SqlConnection con = connect("igroup31_test1ConnectionString"); // create a connection to the database using the connection String defined in the web config file
@@ -1639,9 +1816,9 @@ public class DBservices
             daI.Fill(dsI, "Invoice");
             dt_invoice = dsI.Tables["Invoice"];
 
-            
 
-        
+
+
 
             con.Close();
             return dt_invoice;
@@ -1655,8 +1832,6 @@ public class DBservices
             con.Close();
         }
     }
-        
-
 
 
 }

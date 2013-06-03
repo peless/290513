@@ -26,6 +26,7 @@
     </tr>
     <tr>
     <td><asp:Label ID="LBans" runat="server" Text="" ForeColor=#9b8d84></asp:Label></td>
+    <td><asp:Label ID="LBbeack" runat="server" Text="" ForeColor=#9b8d84></asp:Label></td>
     </tr>
 </table>
 

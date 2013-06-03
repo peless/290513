@@ -47,13 +47,38 @@ public class Item
         set { category = value; }
     }
 
+    int price;
+
+    public int Price
+    {
+        get { return price; }
+        set { price = value; }
+    }
+
+    string vandor;
+
+    public string Vandor
+    {
+        get { return vandor; }
+        set { vandor = value; }
+    }
+
     public Item(string _name, string _serialnumber, int _numinbox, string _category)
     {
         Name = _name;
         Serialnumber = _serialnumber;
         Numinbox = _numinbox;
         Category = _category;
-
-
     }
+
+    //public Item(string _name, string _serialnumber, int _numinbox, string _category, int _price, string _vandor)
+    //{
+    //    Name = _name;
+    //    Serialnumber = _serialnumber;
+    //    Numinbox = _numinbox;
+    //    Category = _category;
+    //    Price = _price;
+    //    Vandor = _vandor;
+
+    //}
 }

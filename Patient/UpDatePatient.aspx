@@ -16,7 +16,7 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
 
 
-
+<br />
 <center><h1>יצירת מטופל חדש</h1></center>
 
 <table dir="rtl" id="savePASS" style="width:100% ; margin-left:-10px">

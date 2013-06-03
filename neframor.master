@@ -27,12 +27,12 @@
       </ul>
    </li>
    <li class='active '><span style="
-    color: #000;  display: block;  font-weight: normal;  line-height: 50px;  margin: 0px;  padding: 0px 25px;  text-align: center;  text-decoration: none;
-">רכש</span></a>
+    color: #000;  display: block;  font-weight: normal;  line-height: 50px;  margin: 0px;  padding: 0px 25px;  text-align: center;  text-decoration: none;">רכש</span></a>
       <ul>
          <li><a href='../Order/formOrder.aspx'><span>יצירת הזמנה</span></a></li>
          <li><a href='../Order/OrderList.aspx'><span>אישור הזמנה</span></a></li>
          <li><a href='../Item/Newiteam.aspx'><span>הוספת פריט</span></a></li>
+         <li><a href='../Item/itamList.aspx'><span>עדכון/מחיקה פריט</span></a></li>
       </ul>
    </li>
    <li class='active '><span style="

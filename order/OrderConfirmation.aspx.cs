@@ -151,12 +151,18 @@ public partial class OrderConfirmation : System.Web.UI.Page
         {
             if (TBDelivery.Text != string.Empty || TBdate.Text!= string.Empty )
             {
+            DBservices dbs = new DBservices();
             string NumberDelivery = TBDelivery.Text;
 
+            string workername = (string)(Session["Name"]);
+            string workerPASS = (string)(Session["Password"]);
+
+            string workerID  = dbs.getWorkerID(workername,workerPASS);
+            string branch = dbs.getWorkerBranch(workerID);
 
             int i = 0;
             int numcheck = 0;
-            DBservices dbs = new DBservices();
+
             Table TBL = new Table();
             TBL = (Table)(Session["itemINoRDER"]);
             int num = TBL.Rows.Count;
@@ -173,6 +179,10 @@ public partial class OrderConfirmation : System.Web.UI.Page
                         {
                             numcheck++;
                             DBservices.AprroveItem(NumberOrder, x.Cells[2].Text);
+
+                            int Quntity = (Convert.ToInt32(x.Cells[1].Text)) ;
+
+                            DBservices.UpDateStock(x.Cells[2].Text, branch, Quntity);
                         }
                     }
                 }
@@ -181,6 +191,8 @@ public partial class OrderConfirmation : System.Web.UI.Page
 
             // string sup_date = ShippingDateCalendar.SelectedDate.ToShortDateString();
             string sup_date = TBdate.Text;
+
+
 
             if (numcheck == count)
                 dbs.UpDateOrder(NumberOrder, "close", NumberDelivery, sup_date);

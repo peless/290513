@@ -1,0 +1,347 @@
+
+Log Entry : 
+05/29/2013 11:53:49
+Error in: http://localhost:61624/29052013/Item/UPdateIteam.aspx. Error Message:Incorrect syntax near '='.
+__________________________
+
+Log Entry : 
+05/29/2013 11:54:05
+Error in: http://localhost:61624/29052013/Item/UPdateIteam.aspx. Error Message:Incorrect syntax near '='.
+__________________________
+
+Log Entry : 
+05/29/2013 11:56:04
+Error in: http://localhost:61624/29052013/Item/UPdateIteam.aspx. Error Message:Incorrect syntax near '='.
+__________________________
+
+Log Entry : 
+05/29/2013 11:56:29
+Error in: http://localhost:61624/29052013/Item/UPdateIteam.aspx. Error Message:Incorrect syntax near '='.
+__________________________
+
+Log Entry : 
+05/29/2013 11:57:20
+Error in: http://localhost:61624/29052013/Item/UPdateIteam.aspx. Error Message:Incorrect syntax near '='.
+__________________________
+
+Log Entry : 
+05/29/2013 11:59:24
+Error in: http://localhost:61624/29052013/Item/UPdateIteam.aspx. Error Message:Incorrect syntax near '='.
+__________________________
+
+Log Entry : 
+05/29/2013 11:59:31
+Error in: http://localhost:61624/29052013/Item/UPdateIteam.aspx. Error Message:Incorrect syntax near '='.
+__________________________
+
+Log Entry : 
+05/29/2013 11:59:34
+Error in: http://localhost:61624/29052013/Item/UPdateIteam.aspx. Error Message:Incorrect syntax near '='.
+__________________________
+
+Log Entry : 
+05/29/2013 11:59:37
+Error in: http://localhost:61624/29052013/Item/UPdateIteam.aspx. Error Message:Incorrect syntax near '='.
+__________________________
+
+Log Entry : 
+05/29/2013 12:04:47
+Error in: http://localhost:61624/29052013/Item/UPdateIteam.aspx. Error Message:Incorrect syntax near 'Medical'.
+__________________________
+
+Log Entry : 
+05/29/2013 12:05:39
+Error in: http://localhost:61624/29052013/Item/UPdateIteam.aspx. Error Message:Invalid column name 'Medibest'.
+__________________________
+
+Log Entry : 
+05/29/2013 14:21:14
+Error in: http://localhost:61624/29052013/Item/UpDateItem.aspx?Name=צלצלך. Error Message:Column 'Vandor' does not belong to table Item.
+__________________________
+
+Log Entry : 
+05/29/2013 14:21:31
+Error in: http://localhost:61624/29052013/Item/UpDateItem.aspx?Name=צלצלך. Error Message:Column 'Vandor' does not belong to table Item.
+__________________________
+
+Log Entry : 
+05/29/2013 14:29:27
+Error in: http://localhost:61624/29052013/Item/UpDateItem.aspx?Name=צלצלך. Error Message:Column 'Vandor' does not belong to table Item.
+__________________________
+
+Log Entry : 
+05/29/2013 14:30:47
+Error in: http://localhost:61624/29052013/Item/UpDateItem.aspx?Name=צלצלך. Error Message:Column 'Vandor' does not belong to table Item.
+__________________________
+
+Log Entry : 
+05/29/2013 14:38:40
+Error in: http://localhost:61624/29052013/Item/UpDateItem.aspx?Name=סליל 110. Error Message:Column 'Vandor' does not belong to table Item.
+__________________________
+
+Log Entry : 
+05/29/2013 14:39:09
+Error in: http://localhost:61624/29052013/Item/UpDateItem.aspx?Name=סליל 110. Error Message:Column 'Vandor' does not belong to table Item.
+__________________________
+
+Log Entry : 
+05/29/2013 14:39:20
+Error in: http://localhost:61624/29052013/Item/UpDateItem.aspx?Name=סליל 110. Error Message:Column 'Vandor' does not belong to table Item.
+__________________________
+
+Log Entry : 
+05/29/2013 14:42:13
+Error in: http://localhost:61624/29052013/Item/UpDateItem.aspx?Name=MAX060S. Error Message:Column 'Vandor' does not belong to table Item.
+__________________________
+
+Log Entry : 
+05/29/2013 14:43:08
+Error in: http://localhost:61624/29052013/Item/UpDateItem.aspx?Name=צלצלך. Error Message:Column 'Vandor' does not belong to table Item.
+__________________________
+
+Log Entry : 
+05/29/2013 14:52:57
+Error in: http://localhost:61624/29052013/Item/UpDateItem.aspx?Name=צלצלך. Error Message:Column 'Vandor' does not belong to table Item.
+__________________________
+
+Log Entry : 
+05/29/2013 14:52:57
+Error in: http://localhost:61624/29052013/Item/UpDateItem.aspx?Name=צלצלך. Error Message:Column 'Vandor' does not belong to table Item.
+__________________________
+
+Log Entry : 
+05/29/2013 14:53:14
+Error in: http://localhost:61624/29052013/Item/UpDateItem.aspx?Name=MAX065S. Error Message:Column 'Vandor' does not belong to table Item.
+__________________________
+
+Log Entry : 
+05/29/2013 14:56:44
+Error in: http://localhost:61624/29052013/Item/UpDateItem.aspx?Name=MAX070S. Error Message:Column 'Vandor' does not belong to table Item.
+__________________________
+
+Log Entry : 
+05/29/2013 14:57:38
+Error in: http://localhost:61624/29052013/Item/UpDateItem.aspx?Name=סליל 110. Error Message:Column 'Vandor' does not belong to table Item.
+__________________________
+
+Log Entry : 
+05/29/2013 15:04:02
+Error in: http://localhost:61624/29052013/Item/UpDateItem.aspx?Name=צלצלך. Error Message:Column 'Vandor' does not belong to table Item.
+__________________________
+
+Log Entry : 
+05/29/2013 15:04:52
+Error in: http://localhost:61624/29052013/Item/UpDateItem.aspx?Name=סליל 110. Error Message:Column 'Vandor' does not belong to table Item.
+__________________________
+
+Log Entry : 
+05/29/2013 15:12:44
+Error in: http://localhost:61624/29052013/Item/UpDateItem.aspx?Name=סליל 110. Error Message:Column 'Vandor' does not belong to table Item.
+__________________________
+
+Log Entry : 
+05/29/2013 15:14:39
+Error in: http://localhost:61624/29052013/Item/UpDateItem.aspx?Name=סליל 110. Error Message:Column 'Vandor' does not belong to table Item.
+__________________________
+
+Log Entry : 
+05/29/2013 15:17:29
+Error in: http://localhost:61624/29052013/Item/UpDateItem.aspx?Name=סליל 110. Error Message:Index was outside the bounds of the array.
+__________________________
+
+Log Entry : 
+05/29/2013 15:17:45
+Error in: http://localhost:61624/29052013/Item/UpDateItem.aspx?Name=צלצלך. Error Message:Index was outside the bounds of the array.
+__________________________
+
+Log Entry : 
+05/29/2013 15:19:34
+Error in: http://localhost:61624/29052013/Item/UpDateItem.aspx?Name=צלצלך. Error Message:Index was outside the bounds of the array.
+__________________________
+
+Log Entry : 
+05/29/2013 15:22:24
+Error in: http://localhost:61624/29052013/Item/UpDateItem.aspx?Name=צלצלך. Error Message:Index was outside the bounds of the array.
+__________________________
+
+Log Entry : 
+05/29/2013 17:38:14
+Error in: http://localhost:61624/29052013/Item/UpDateItem.aspx?Name=סליל+110. Error Message:Thread was being aborted.
+__________________________
+
+Log Entry : 
+05/29/2013 17:41:31
+Error in: http://localhost:61624/29052013/Item/UpDateItem.aspx?Name=MAX060S. Error Message:Thread was being aborted.
+__________________________
+
+Log Entry : 
+05/29/2013 17:42:20
+Error in: http://localhost:61624/29052013/Item/UpDateItem.aspx. Error Message:Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+__________________________
+
+Log Entry : 
+05/29/2013 17:42:41
+Error in: http://localhost:61624/29052013/Item/UpDateItem.aspx?Name=MAX060S. Error Message:Thread was being aborted.
+__________________________
+
+Log Entry : 
+05/29/2013 17:42:55
+Error in: http://localhost:61624/29052013/Item/UpDateItem.aspx?Name=MAX060S. Error Message:The DELETE statement conflicted with the REFERENCE constraint "FK__ITEM_PO__SN__2645B050". The conflict occurred in database "igroup31_test1", table "dbo.ITEM_PO", column 'SN'.
+The statement has been terminated.
+__________________________
+
+Log Entry : 
+05/29/2013 17:44:36
+Error in: http://localhost:61624/29052013/Item/UpDateItem.aspx?Name=צלצלך. Error Message:Thread was being aborted.
+__________________________
+
+Log Entry : 
+05/29/2013 17:45:43
+Error in: http://localhost:61624/29052013/Item/UpDateItem.aspx?Name=צלצלך. Error Message:Thread was being aborted.
+__________________________
+
+Log Entry : 
+05/29/2013 17:46:17
+Error in: http://localhost:61624/29052013/Item/UpDateItem.aspx?Name=MAX060S. Error Message:Thread was being aborted.
+__________________________
+
+Log Entry : 
+05/29/2013 17:47:36
+Error in: http://localhost:61624/29052013/Patient/PatientList.aspx. Error Message:Incorrect syntax near ')'.
+__________________________
+
+Log Entry : 
+05/29/2013 17:54:51
+Error in: http://localhost:61624/29052013/Item/UpDateItem.aspx?Name=צלצלך. Error Message:Thread was being aborted.
+__________________________
+
+Log Entry : 
+05/29/2013 17:55:27
+Error in: http://localhost:61624/29052013/Item/UpDateItem.aspx?Name=צלצלך. Error Message:Thread was being aborted.
+__________________________
+
+Log Entry : 
+05/29/2013 18:00:12
+Error in: http://localhost:61624/29052013/Item/UpDateItem.aspx?Name=צלצלך. Error Message:Thread was being aborted.
+__________________________
+
+Log Entry : 
+05/29/2013 18:04:04
+Error in: http://localhost:61624/29052013/Item/UpDateItem.aspx?Name=צלצלך. Error Message:Thread was being aborted.
+__________________________
+
+Log Entry : 
+05/29/2013 18:04:30
+Error in: http://localhost:61624/29052013/Item/UpDateItem.aspx?Name=צלצלך. Error Message:Thread was being aborted.
+__________________________
+
+Log Entry : 
+05/29/2013 18:05:21
+Error in: http://localhost:61624/29052013/Item/UpDateItem.aspx?Name=צלצלך. Error Message:Object reference not set to an instance of an object.
+__________________________
+
+Log Entry : 
+05/29/2013 18:05:37
+Error in: http://localhost:61624/29052013/Item/UpDateItem.aspx?Name=סליל+110. Error Message:Object reference not set to an instance of an object.
+__________________________
+
+Log Entry : 
+05/29/2013 18:05:40
+Error in: http://localhost:61624/29052013/Item/UpDateItem.aspx?Name=סליל+110. Error Message:Object reference not set to an instance of an object.
+__________________________
+
+Log Entry : 
+05/29/2013 18:05:41
+Error in: http://localhost:61624/29052013/Item/UpDateItem.aspx?Name=סליל+110. Error Message:Object reference not set to an instance of an object.
+__________________________
+
+Log Entry : 
+05/29/2013 18:06:38
+Error in: http://localhost:61624/29052013/Item/UpDateItem.aspx?Name=סליל+110. Error Message:Object reference not set to an instance of an object.
+__________________________
+
+Log Entry : 
+05/29/2013 18:08:51
+Error in: http://localhost:61624/29052013/Item/UpDateItem.aspx?Name=צלצלך. Error Message:The DELETE statement conflicted with the REFERENCE constraint "FK__ITEM_PO__SN__2645B050". The conflict occurred in database "igroup31_test1", table "dbo.ITEM_PO", column 'SN'.
+The statement has been terminated.
+__________________________
+
+Log Entry : 
+05/29/2013 18:09:01
+Error in: http://localhost:61624/29052013/Item/UpDateItem.aspx?Name=צלצלך. Error Message:Thread was being aborted.
+__________________________
+
+Log Entry : 
+05/29/2013 18:17:40
+Error in: http://localhost:61624/29052013/Item/UpDateItem.aspx?Name=צלצלך. Error Message:Thread was being aborted.
+__________________________
+
+Log Entry : 
+05/29/2013 18:18:50
+Error in: http://localhost:61624/29052013/Item/UpDateItem.aspx?Name=סליל+110. Error Message:Thread was being aborted.
+__________________________
+
+Log Entry : 
+05/29/2013 20:23:12
+Error in: http://localhost:61624/29052013/Order/OrderConfirmation.aspx?Po_id=114. Error Message:Specified argument was out of the range of valid values.
+Parameter name: index
+__________________________
+
+Log Entry : 
+05/29/2013 20:24:41
+Error in: http://localhost:61624/29052013/Order/OrderConfirmation.aspx?Po_id=114. Error Message:Specified argument was out of the range of valid values.
+Parameter name: index
+__________________________
+
+Log Entry : 
+05/29/2013 20:25:14
+Error in: http://localhost:61624/29052013/Item/itemOrder.aspx. Error Message:String was not recognized as a valid DateTime.
+__________________________
+
+Log Entry : 
+05/29/2013 20:29:10
+Error in: http://localhost:61624/29052013/Order/OrderConfirmation.aspx?Po_id=115. Error Message:Specified argument was out of the range of valid values.
+Parameter name: index
+__________________________
+
+Log Entry : 
+05/29/2013 20:31:23
+Error in: http://localhost:61624/29052013/Order/OrderConfirmation.aspx?Po_id=115. Error Message:Specified argument was out of the range of valid values.
+Parameter name: index
+__________________________
+
+Log Entry : 
+05/29/2013 20:33:07
+Error in: http://localhost:61624/29052013/Order/OrderConfirmation.aspx?Po_id=113. Error Message:Specified argument was out of the range of valid values.
+Parameter name: index
+__________________________
+
+Log Entry : 
+05/29/2013 20:34:01
+Error in: http://localhost:61624/29052013/Order/OrderConfirmation.aspx?Po_id=115. Error Message:Specified argument was out of the range of valid values.
+Parameter name: index
+__________________________
+
+Log Entry : 
+05/29/2013 20:36:36
+Error in: http://localhost:61624/29052013/Order/OrderConfirmation.aspx?Po_id=116. Error Message:Object reference not set to an instance of an object.
+__________________________
+
+Log Entry : 
+05/29/2013 20:39:53
+Error in: http://localhost:61624/29052013/Order/OrderConfirmation.aspx?Po_id=115. Error Message:Specified argument was out of the range of valid values.
+Parameter name: index
+__________________________
+
+Log Entry : 
+05/29/2013 20:51:45
+Error in: http://localhost:61624/29052013/Order/OrderConfirmation.aspx?Po_id=113. Error Message:Specified argument was out of the range of valid values.
+Parameter name: index
+__________________________
+
+Log Entry : 
+05/29/2013 22:24:20
+Error in: http://localhost:64037/29052013/Item/UpDateItem.aspx?Name=צלצלך. Error Message:The DELETE statement conflicted with the REFERENCE constraint "FK__ITEM_PO__SN__2645B050". The conflict occurred in database "igroup31_test1", table "dbo.ITEM_PO", column 'SN'.
+The statement has been terminated.
+__________________________
